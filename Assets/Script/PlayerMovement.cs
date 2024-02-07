@@ -28,6 +28,7 @@ public class PlayerMovement : NetworkBehaviour
     public Transform cameratransform;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -127,6 +128,7 @@ public class PlayerMovement : NetworkBehaviour
             networkObject.GetComponent<Collider>().enabled = true;
         }
     }
+
 
     void TryPickupObject()
     {
